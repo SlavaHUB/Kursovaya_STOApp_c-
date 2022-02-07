@@ -1,0 +1,55 @@
+﻿<Window x:Class="AppStoKursovaya.ActionUser.ClientInfoOrder"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppStoKursovaya.ActionUser"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="ClientInfoOrder" Height="270" MinHeight="270" MaxHeight="270" Width="350" MinWidth="350" MaxWidth="350">
+    <Grid Background="#FFCF40">
+        <StackPanel Orientation="Vertical" Margin="5 0 5 0">
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Информация о заказе ID =" FontSize="18"/>
+                <TextBlock x:Name="clientInfoIdOrder" Width="auto" FontSize="18" VerticalAlignment="Center" Margin="0 0 0 0"/>
+            </StackPanel>
+            
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Мастер" FontSize="14" Width="200" Padding="0"/>
+                <TextBlock x:Name="clientNameMaster" Text="нет данных" FontSize="14" Width="120" VerticalAlignment="Center"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Автомобиль" FontSize="14" Width="150" Padding="0"/>
+                <StackPanel Orientation="Vertical">
+                    <StackPanel Orientation ="Horizontal">
+                        <Label Content="марка" FontSize="8" Width="50"/>
+                        <TextBlock x:Name="clientInfoAutoMarka" Text="нет данных" Width="120" FontSize="14" VerticalAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Orientation ="Horizontal">
+                        <Label Content="госномер" FontSize="8" Width="50"/>
+                        <TextBlock x:Name="clientInfoAutoGosnom" Text="нет данных" Width="120" FontSize="14" VerticalAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Orientation ="Horizontal">
+                        <Label Content="двигатель" FontSize="8" Width="50"/>
+                        <TextBlock x:Name="clientInfoAutoTypeEngine" Text="нет данных" FontSize="14" VerticalAlignment="Center" Width="120"/>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Дата регистрации" FontSize="14" Width="200" Padding="0"/>
+                <TextBlock x:Name="clientDataOrder" Text="нет данных" FontSize="14" Width="120" VerticalAlignment="Center"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Описание работы" FontSize="14" Width="200" VerticalAlignment="Top" Padding="0"/>
+                <TextBlock x:Name="clientInfoWork" TextWrapping="Wrap" Width="120" FontSize="14"  Height="58"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="5 0 5 0">
+                <Button x:Name="butPayment" Content="Оплатить" Background="Gray" Width="231" Click="butPayment_Click"/>
+                <Button x:Name="butClose" Content="Выход" Background="Transparent" Width="80" Click="butClose_Click"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

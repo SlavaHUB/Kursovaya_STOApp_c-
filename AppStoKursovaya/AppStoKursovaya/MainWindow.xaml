@@ -1,0 +1,57 @@
+﻿<Window x:Class="AppStoKursovaya.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppStoKursovaya"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="MainWindow" Height="450" Width="700" MaxHeight="450" MinHeight="450" MaxWidth="700" MinWidth="700">
+    <Grid>
+        <Image Source="D:\Документы Д\Программирование\Курсовая c#\Kursovaya_STOApp_c#\fon-3.jpg" Stretch="Fill"/>
+        <StackPanel Orientation="Vertical" Height="90" VerticalAlignment="Top">
+            <StackPanel Orientation="Horizontal">
+                <StackPanel Orientation="Vertical" Width="445">
+                    <Label Content="Станция технического обслуживания" FontSize="22" Foreground="Black" FontWeight="Bold" Height="61" Margin="9,0,0,0"/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Height="55" VerticalAlignment="Top">
+                    <Label Content="Наш адрес: г.Гомель проспект Октября 48" Height="30"/>
+                    <Label Content="email: autostroimnelomaem@gmail.auto" Height="25"/>
+                </StackPanel>
+            </StackPanel>
+            <TextBlock Text=" С уважением к Вам, с любовью к автомобилю!" TextBlock.TextAlignment="Center" FontSize="14" HorizontalAlignment="Center" FontWeight="Bold" Width="672"/>
+        </StackPanel>
+        <Grid Height="30" VerticalAlignment="Top" Margin="10 90 10 0" Background="DarkOrange">
+            <Border BorderBrush="Transparent">
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="butInput" Content="Войти/Регистрация" BorderBrush="Transparent" Background="Green" Width="150" Height="30" HorizontalAlignment="Left" Click="butInput_Click"/>
+                    <Button x:Name="butMain" Content="На главную" BorderBrush="Transparent" Background="DarkOrange" Width="105" Click="butMain_Click"/>
+                    <Button x:Name="butPrivRoom" Content="Личный кабинет" BorderBrush="Transparent" Background="DarkOrange" Width="105" Click="butPrivRoom_Click"/>
+                    <Button x:Name="butOrder" Content="Оформить заказ" BorderBrush="Transparent" Background="DarkOrange" Width="104" Click="butOrder_Click"/>
+                    <Button x:Name="butInfo" Content="О компании" BorderBrush="Transparent" Background="DarkOrange" Width="106" Height="30" Click="butInfo_Click"/>
+                    <Button x:Name="butComm" Content="Отзывы" BorderBrush="Transparent" Width="96" Background="Transparent" Click="butComm_Click"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+        <Grid Margin="0,125,450,0">
+            <StackPanel Margin="10 0 0 0">
+                <Label Content="Наши услуги" FontSize="16" Foreground="Black"/>
+                <ComboBox x:Name="ourUsl" SelectionChanged="ourUsl_SelectionChanged"/>
+                <Button x:Name="infoUsl" Content="Показать подробности" Background="Green" Foreground="Black" Height="20" Margin="20 10 20 0" Click="infoUsl_Click"/>
+            </StackPanel>
+        </Grid>
+        <StackPanel Orientation="Vertical" Margin="247,125,10,24">
+            <Label x:Name="handInfo" Content="3 причины выбрать наш автосервис" HorizontalAlignment="Center" FontSize="16" Foreground="Black"/>
+            <ScrollViewer VerticalScrollBarVisibility="Auto" Height="237">
+                <Border BorderBrush="Transparent">
+                    <TextBlock x:Name="infoTextBlock" Foreground="Black" FontSize="16" TextWrapping="Wrap" FontWeight="DemiBold" FontFamily="Technical Italic">
+                        <TextBlock.Background>
+                            <SolidColorBrush Color="Azure" Opacity="0"/>
+                        </TextBlock.Background>
+                    </TextBlock>
+                </Border>
+            </ScrollViewer>
+        </StackPanel>
+
+    </Grid>
+</Window>

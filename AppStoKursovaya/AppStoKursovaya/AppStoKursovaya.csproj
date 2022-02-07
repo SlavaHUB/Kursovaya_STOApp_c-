@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{62C0E795-5337-4211-8EDD-D35C45A34CBE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AppStoKursovaya</RootNamespace>
+    <AssemblyName>AppStoKursovaya</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="ActionManager\ManInfoOrder.xaml.cs">
+      <DependentUpon>ManInfoOrder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ActionManager\ManInfoWork.xaml.cs">
+      <DependentUpon>ManInfoWork.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ActionUser\ClientInfoOrder.xaml.cs">
+      <DependentUpon>ClientInfoOrder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ActionUser\UserInfoOrder.xaml.cs">
+      <DependentUpon>UserInfoOrder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ActionWindows\OrderMenu.xaml.cs">
+      <DependentUpon>OrderMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BD_kursachDataSet.cs">
+      <DependentUpon>BD_kursachDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Registration\RegUser.xaml.cs">
+      <DependentUpon>RegUser.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserRoom\ManagerRoom.xaml.cs">
+      <DependentUpon>ManagerRoom.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserRoom\MasterRoom.xaml.cs">
+      <DependentUpon>MasterRoom.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserRoom\UserPrivateRoom.xaml.cs">
+      <DependentUpon>UserPrivateRoom.xaml</DependentUpon>
+    </Compile>
+    <Page Include="ActionManager\ManInfoOrder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ActionManager\ManInfoWork.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ActionUser\ClientInfoOrder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ActionUser\UserInfoOrder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ActionWindows\OrderMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BD_kursachDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD_kursachDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Items\Autos.cs" />
+    <Compile Include="Items\Checker.cs" />
+    <Compile Include="Items\Clients.cs" />
+    <Compile Include="Items\Employee.cs" />
+    <Compile Include="Items\Marks.cs" />
+    <Compile Include="Items\Master.cs" />
+    <Compile Include="Items\Orders.cs" />
+    <Compile Include="Items\Positions.cs" />
+    <Compile Include="Items\Users.cs" />
+    <Compile Include="Items\Works.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Registration\RegUser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserRoom\ManagerRoom.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserRoom\MasterRoom.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserRoom\UserPrivateRoom.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MyDb\Db.cs" />
+    <Compile Include="MyRepository\RepAutos.cs" />
+    <Compile Include="MyRepository\RepChecker.cs" />
+    <Compile Include="MyRepository\RepClients.cs" />
+    <Compile Include="MyRepository\RepEmployee.cs" />
+    <Compile Include="MyRepository\RepMarks.cs" />
+    <Compile Include="MyRepository\RepMaster.cs" />
+    <Compile Include="MyRepository\RepOrder.cs" />
+    <Compile Include="MyRepository\RepPositions.cs" />
+    <Compile Include="MyRepository\RepUsers.cs" />
+    <Compile Include="MyRepository\RepWorks.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="BD_kursachDataSet.xsc">
+      <DependentUpon>BD_kursachDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BD_kursachDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD_kursachDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD_kursachDataSet.xss">
+      <DependentUpon>BD_kursachDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

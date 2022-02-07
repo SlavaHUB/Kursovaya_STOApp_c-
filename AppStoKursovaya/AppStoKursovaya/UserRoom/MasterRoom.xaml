@@ -1,0 +1,28 @@
+﻿<Window x:Class="AppStoKursovaya.UserRoom.MasterRoom"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppStoKursovaya.UserRoom"
+        mc:Ignorable="d"
+        Title="MasterRoom" Height="340" Width="430">
+    <Grid Background="DarkOrange">
+        <StackPanel Orientation="Vertical" Margin="10 0 10 0">
+            <Label Content="Кабинет мастера" FontSize="20"/>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="фамилия сотрудника" FontSize="10"/>
+                <TextBlock x:Name="nameMaster" Width="auto" FontSize="10" Foreground="Green" VerticalAlignment="Center" Margin="10 0 0 0"/>
+            </StackPanel>
+            <DataGrid x:Name="masterDataGrid" Height="200" IsReadOnly="True" SelectionChanged="masterDataGrid_SelectionChanged">
+                <DataGrid.RowDetailsTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <Button x:Name="butGridOrder" Content="Дополнительно" Click="butGridOrder_Click"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </DataGrid.RowDetailsTemplate>
+            </DataGrid>
+            <Button x:Name="masterExit" Content="Выход" Margin="0 10 0 0" Width="100" HorizontalAlignment="Left" Background="red" Click="masterExit_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

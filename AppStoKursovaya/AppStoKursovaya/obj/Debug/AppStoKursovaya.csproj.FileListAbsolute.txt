@@ -1,0 +1,66 @@
+D:\Документы Д\Программирование\Курсовая c#\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\bin\Debug\AppStoKursovaya.exe.config
+D:\Документы Д\Программирование\Курсовая c#\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\bin\Debug\AppStoKursovaya.exe
+D:\Документы Д\Программирование\Курсовая c#\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\bin\Debug\AppStoKursovaya.pdb
+D:\Документы Д\Программирование\Курсовая c#\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\AppStoKursovaya.csprojAssemblyReference.cache
+D:\Документы Д\Программирование\Курсовая c#\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\ActionWindows\OrderMenu.g.cs
+D:\Документы Д\Программирование\Курсовая c#\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\MainWindow.g.cs
+D:\Документы Д\Программирование\Курсовая c#\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\Registration\RegUser.g.cs
+D:\Документы Д\Программирование\Курсовая c#\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\UserRoom\UserPrivateRoom.g.cs
+D:\Документы Д\Программирование\Курсовая c#\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\App.g.cs
+D:\Документы Д\Программирование\Курсовая c#\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\AppStoKursovaya_MarkupCompile.cache
+D:\Документы Д\Программирование\Курсовая c#\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\AppStoKursovaya_MarkupCompile.lref
+D:\Документы Д\Программирование\Курсовая c#\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\MainWindow.baml
+D:\Документы Д\Программирование\Курсовая c#\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\ActionWindows\OrderMenu.baml
+D:\Документы Д\Программирование\Курсовая c#\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\Registration\RegUser.baml
+D:\Документы Д\Программирование\Курсовая c#\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\UserRoom\UserPrivateRoom.baml
+D:\Документы Д\Программирование\Курсовая c#\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\AppStoKursovaya.g.resources
+D:\Документы Д\Программирование\Курсовая c#\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\AppStoKursovaya.Properties.Resources.resources
+D:\Документы Д\Программирование\Курсовая c#\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\AppStoKursovaya.csproj.GenerateResource.cache
+D:\Документы Д\Программирование\Курсовая c#\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\AppStoKursovaya.csproj.CoreCompileInputs.cache
+D:\Документы Д\Программирование\Курсовая c#\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\AppStoKursovaya.exe
+D:\Документы Д\Программирование\Курсовая c#\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\AppStoKursovaya.pdb
+D:\Документы Д\Программирование\Курсовая c#\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\UserRoom\ManagerRoom.g.cs
+D:\Документы Д\Программирование\Курсовая c#\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\UserRoom\ManagerRoom.baml
+D:\Документы Д\Программирование\Курсовая c#\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\ActionManager\ManInfoOrder.g.cs
+D:\Документы Д\Программирование\Курсовая c#\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\ActionManager\ManInfoOrder.baml
+D:\Документы Д\Программирование\Курсовая c#\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\ActionManager\ManInfoWork.g.cs
+D:\Документы Д\Программирование\Курсовая c#\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\ActionManager\ManInfoWork.baml
+D:\Документы Д\Программирование\Курсовая c#\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\ActionUser\UserInfoOrder.g.cs
+D:\Документы Д\Программирование\Курсовая c#\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\ActionUser\UserInfoOrder.baml
+D:\Документы Д\Программирование\Курсовая c#\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\UserRoom\MasterRoom.g.cs
+D:\Документы Д\Программирование\Курсовая c#\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\UserRoom\MasterRoom.baml
+D:\Документы Д\Программирование\Курсовая c#\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\ActionUser\ClientInfoOrder.g.cs
+D:\Документы Д\Программирование\Курсовая c#\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\ActionUser\ClientInfoOrder.baml
+D:\Документы Д\Программирование\Course works\CourseWork c# STOapp\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\bin\Debug\AppStoKursovaya.exe.config
+D:\Документы Д\Программирование\Course works\CourseWork c# STOapp\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\bin\Debug\AppStoKursovaya.exe
+D:\Документы Д\Программирование\Course works\CourseWork c# STOapp\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\bin\Debug\AppStoKursovaya.pdb
+D:\Документы Д\Программирование\Course works\CourseWork c# STOapp\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\AppStoKursovaya.csprojAssemblyReference.cache
+D:\Документы Д\Программирование\Course works\CourseWork c# STOapp\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\ActionManager\ManInfoOrder.g.cs
+D:\Документы Д\Программирование\Course works\CourseWork c# STOapp\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\ActionManager\ManInfoWork.g.cs
+D:\Документы Д\Программирование\Course works\CourseWork c# STOapp\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\ActionUser\ClientInfoOrder.g.cs
+D:\Документы Д\Программирование\Course works\CourseWork c# STOapp\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\ActionUser\UserInfoOrder.g.cs
+D:\Документы Д\Программирование\Course works\CourseWork c# STOapp\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\ActionWindows\OrderMenu.g.cs
+D:\Документы Д\Программирование\Course works\CourseWork c# STOapp\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\MainWindow.g.cs
+D:\Документы Д\Программирование\Course works\CourseWork c# STOapp\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\Registration\RegUser.g.cs
+D:\Документы Д\Программирование\Course works\CourseWork c# STOapp\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\UserRoom\ManagerRoom.g.cs
+D:\Документы Д\Программирование\Course works\CourseWork c# STOapp\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\UserRoom\MasterRoom.g.cs
+D:\Документы Д\Программирование\Course works\CourseWork c# STOapp\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\UserRoom\UserPrivateRoom.g.cs
+D:\Документы Д\Программирование\Course works\CourseWork c# STOapp\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\App.g.cs
+D:\Документы Д\Программирование\Course works\CourseWork c# STOapp\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\AppStoKursovaya_MarkupCompile.cache
+D:\Документы Д\Программирование\Course works\CourseWork c# STOapp\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\AppStoKursovaya_MarkupCompile.lref
+D:\Документы Д\Программирование\Course works\CourseWork c# STOapp\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\ActionManager\ManInfoOrder.baml
+D:\Документы Д\Программирование\Course works\CourseWork c# STOapp\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\ActionManager\ManInfoWork.baml
+D:\Документы Д\Программирование\Course works\CourseWork c# STOapp\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\ActionUser\ClientInfoOrder.baml
+D:\Документы Д\Программирование\Course works\CourseWork c# STOapp\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\ActionUser\UserInfoOrder.baml
+D:\Документы Д\Программирование\Course works\CourseWork c# STOapp\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\ActionWindows\OrderMenu.baml
+D:\Документы Д\Программирование\Course works\CourseWork c# STOapp\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\MainWindow.baml
+D:\Документы Д\Программирование\Course works\CourseWork c# STOapp\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\Registration\RegUser.baml
+D:\Документы Д\Программирование\Course works\CourseWork c# STOapp\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\UserRoom\ManagerRoom.baml
+D:\Документы Д\Программирование\Course works\CourseWork c# STOapp\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\UserRoom\MasterRoom.baml
+D:\Документы Д\Программирование\Course works\CourseWork c# STOapp\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\UserRoom\UserPrivateRoom.baml
+D:\Документы Д\Программирование\Course works\CourseWork c# STOapp\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\AppStoKursovaya.g.resources
+D:\Документы Д\Программирование\Course works\CourseWork c# STOapp\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\AppStoKursovaya.Properties.Resources.resources
+D:\Документы Д\Программирование\Course works\CourseWork c# STOapp\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\AppStoKursovaya.csproj.GenerateResource.cache
+D:\Документы Д\Программирование\Course works\CourseWork c# STOapp\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\AppStoKursovaya.csproj.CoreCompileInputs.cache
+D:\Документы Д\Программирование\Course works\CourseWork c# STOapp\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\AppStoKursovaya.exe
+D:\Документы Д\Программирование\Course works\CourseWork c# STOapp\Kursovaya_STOApp_c#\AppStoKursovaya\AppStoKursovaya\obj\Debug\AppStoKursovaya.pdb
